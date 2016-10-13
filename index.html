@@ -3,23 +3,29 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
+  <title>KarolWilliams</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 </head>
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="" class="brand-logo">KarolWilliams</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -28,42 +34,75 @@
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
 
+        <div class="carousel carousel-slider center" data-indicators="true">
+          <div class="carousel-fixed-item center">
+            <div class="row center">
+              <a href="#contact" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">CLICK TO CONTACT</a>
+            </div>
+          </div>
+
+          <div class="carousel-item white-text" href="#one!">
+            <br><br>
+            <h1 class="header center text-lighten-2">KarolWilliams Law Firm</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">SLOGAN HERE</h5>
+            </div>
+            <br><br>
+          </div>
+          <div class="carousel-item white-text" href="#two!">
+            <br><br>
+            <h1 class="header center text-lighten-2">ADVICE</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">FOR YOUR BUSINESS</h5>
+            </div>
+            <br><br>
+          </div>
+          <div class="carousel-item white-text" href="#three!">
+            <br><br>
+            <h1 class="header center text-lighten-2">EXPERTS</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">WHO’VE BEEN THERE</h5>
+            </div>
+            <br><br>
+          </div>
+          <div class="carousel-item white-text" href="#four!">
+            <br><br>
+            <h1 class="header center text-lighten-2">STRATEGIES</h1>
+            <div class="row center">
+              <h5 class="header col s12 light">THAT WORK</h5>
+            </div>
+            <br><br>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
   <div class="container">
     <div class="section">
 
+
       <!--   Icon Section   -->
-      <div class="row">
+      <div class="row" id="services">
+        <h1 class="center">Our Services</h1>
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center">Who Are We?</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">KarolWilliams is the law partnership of Scott J. Karol, Esq., and R. Delano Williams, Jr., Esq., which offers legal services surrounding the creation of new business ventures with a focus on the entertainment industry.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center">Who do we represent?</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">Corporate and LLC formation, employment and other agreements for key persons, consulting agreements, shareholder agreements, sales and service contracts, board governance matters, tax matters, and issues related to the purchase and sale of a business, among other things.</p>
           </div>
         </div>
 
@@ -72,10 +111,87 @@
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Easy to work with</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">In addition the firm represents producers and other creative professionals in all aspects of internet, television and motion picture development, production and financing. The firm also represents artists and galleries in transactional matters related to the visual arts industry.</p>
           </div>
         </div>
       </div>
+
+
+<div class="section" id="about">
+  <hr>
+  <!-- About Section -->
+  <div class="row" >
+    <h1 class="center">About Us</h1>
+    <div class="col s12 m6">
+      <div class="icon-block">
+        <div class="center about"><img class="about-image responsive-img center lano" src="images/lano.png" alt="" /></div>
+        <h5 class="center">R. DELANO WILLIAMS, JR</h5>
+
+        <p class="light">R. Delano Williams, Jr. is an attorney specializing in helping entrepreneurs succeed in their business ventures, with a focus on the entertainment industry.</p>
+        <button type="button" data-target="lano" class="btn modal-trigger waves-effect waves-light teal lighten-1">More</button>
+      </div>
+    </div>
+
+
+    <div class="col s12 m6">
+      <div class="icon-block">
+        <div class="center about"><img class="about-image responsive-img karol" src="images/karol.jpeg" alt="" /></div>
+        <h5 class="center">SCOTT J. KAROL</h5>
+
+        <p class="light">Scott J. Karol is an independent producer, attorney and entertainment business and finance consultant.</p>
+        <button type="button" data-target="karol" class="btn modal-trigger waves-effect waves-light teal lighten-1">More</button>
+      </div>
+    </div>
+
+
+<!-- Modal Structure -->
+<div id="lano" class="modal">
+  <div class="modal-content">
+    <div class="row">
+      <div class="col l5 s12">
+        <img class="about-image responsive-img karol" src="images/lano.png" alt="" />
+      </div>
+      <div class="col l7 s12">
+        <h4>R. DELANO WILLIAMS, JR., ESQ.</h4>
+        <p>R. Delano Williams, Jr., Esq. is an attorney specializing in helping entrepreneurs succeed in their business ventures, with a focus on the entertainment and arts industries.
+Lano graduated from Loyola Law School (LLS) in Los Angeles, CA in 2012 with a JD (concentration in Tax Law) and was on the Dean’s Honor List for the final academic year. He continued at LLS to obtain an LLM in Tax Law with Honors and Distinction in January of 2014.During his time at LLS, Lano clerked at such organizations as the ACLU of Southern California, the LA City Attorney (Intellectual Property Counsel), LA County Public Defender, and the California Community Foundation. He also interned at the Century City office of Sheppard Mullin Richter & Hampton, LLP, under Christine Steiner, one of the leading art lawyers in Los Angeles.
+He holds an MBA in Marketing and Strategy from the Cox School of Business at Southern Methodist University (SMU) in Dallas, TX and a MAin Arts Entrepreneurship from the Meadows School of the Arts at SMU. During his time at SMU he also studied law and business abroad at Universtà Commericale Luigi Bocconi in Milan.
+​Lano has also worked in non-profit fundraising, advertising and marketing including three years at Pallotta TeamWorks, the creator of the AIDSRide and Breast Cancer 3Day Walks,and two years at DDB Los Angeles, one of the pre-eminent advertising agencies in the country. Lano also has an A.B. (Bachelor of Arts) in Economics from Harvard College in Cambridge, MA and plays an active role in the alumni community of Harvard.He also volunteers for Lambda Legal, serving on the Los Angeles Leadership Committee.</p>
+      </div>
+    </div>
+</div>
+  <div class="modal-footer">
+    <a href="#!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="#!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+    <a href="#!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<div id="karol" class="modal">
+  <div class="modal-content">
+    <div class="row">
+      <div class="col l5 s12">
+        <img class="about-image responsive-img karol" src="images/karol.jpeg" alt="" />
+      </div>
+      <div class="col l7 s12">
+        <h4>SCOTT J. KAROL</h4>
+        <p>Scott J. Karol is an independent producer, attorney and entertainment business and finance consultant.Prior to that, he served as Executive Vice President in Charge of Business Affairs, Production and Strategic Planning for Crystal Sky, LLC,where he structured over $60 million in single picture financing, negotiated and secured a $200 million slate financing deal and received Executive Producer credit on several films. Before that, Scott’s focus was in international sales, and acquisitions while Executive Vice President of Conquistador Worldwide Media, where he worked on films such as ‘Rescue Dawn’ (directed by Werner Herzog and starring Christian Bale).During his previous stint in the world of independent production, Scott was Producer of Marvel’s ‘Man-Thing’ and Executive Producer on ‘To Kill a King’ (starring Rupert Everett, Tim Roth and Dougray Scott).
+​Also previously, Scott was Senior Vice President of Business Affairs at Crystal Sky, LLC, where he structured several international co-productions utilizing Canadian tax shelters and labor credits, UK sale/leasebacks and German equity funds. Scott was named one of the Top Twenty Lawyers Under Forty by the Daily Journal, while serving as Executive Vice President and General Counsel for bleem! llc, a cutting-edge videogame software company focusing on PlayStation emulation technology.bleem! was featured in numerous publications, including the Wall Street Journal and Forbes magazine.
+Before his foray into videogames, Scott was Vice President of Original Movies, Business Affairs at Turner Network Television.  Scott came to TNT from MTM Television, where he was Director of Business & Legal Affairs for MTM, The Family Channel and Family Channel Pictures.Scott started his professional career at ICM, in the Agent Training Program, where, after a brief tour of duty in the mailroom, he became the assistant to Ken Kamins, who at the time was the head of the International and Motion Picture Literary departments.
+Scott has a Juris Doctor from Loyola Law School, where he graduated in the top 15% of his class, served on the “Loyola of Los Angeles Law Review”,and received numerous academic awards, including the American Jurisprudence Award in Legal Research & Writing.  He also has a Bachelor of Science in Finance from the University of Nevada, Las Vegas.</p>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <!-- <a href="#!"><i class="fa fa-twitter-square" aria-hidden="true"></i></a> -->
+
+
+  </div>
+</div>
+
+  </div>
+</div>
+
 
     </div>
   </div>
@@ -85,37 +201,27 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light"></h5>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
     <div class="section">
 
-      <div class="row">
+      <div class="row" id="contact">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <a href="#!"><i class="fa fa-envelope"></i></a>
+          <a href="#!"><i class="fa fa-phone"></i></a>
+
         </div>
       </div>
 
     </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
   <footer class="page-footer teal">
@@ -123,33 +229,12 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+          <p class="grey-text text-lighten-4">Interested in seeing what we can do for you? Call or email us to start the conversation.</p>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>

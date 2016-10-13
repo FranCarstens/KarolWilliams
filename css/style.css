@@ -6,9 +6,51 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+ img.about-image {
+   display: center;
+   width: 200px;
+   height: 200px;
+   margin: 1em auto;
+   object-fit: cover;
+   object-position: -5px -32px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   -webkit-border-radius: 99em;
+   -moz-border-radius: 99em;
+   border: 5px solid #eee;
+   border-radius: 99em;
+   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+   -webkit-filter: drop-shadow(5px 5px 5px #222);
+
+ }
+
+
+html, h1, h2, h3, h4, h5, p, a{
+  font-weight: lighter!important;
+}
+
+.inner-square{
+  width: 57px;
+  height: 48px;
+  padding: 0px;
+  background: #00007f;
+  box-sizing: content-box;
+}
+
+.outer-square{
+  width: 97px;
+  height: 80px;
+  padding: 0px;
+  background: #ee612c;
+  box-sizing: content-box;
+}
+
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: navy;
 }
 
 p {
