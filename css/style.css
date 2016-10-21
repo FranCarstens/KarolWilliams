@@ -57,6 +57,19 @@ p {
   line-height: 2rem;
 }
 
+/* BEGIN suggested edits on about section */
+
+#about .icon-block p {
+  text-align: center;
+
+}
+#about .icon-block button {
+  margin: 0 auto;
+  display: block;
+}
+
+/* END SUGGESTED EDITS */
+
 .button-collapse {
   color: #26a69a;
 }
